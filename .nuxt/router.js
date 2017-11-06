@@ -6,6 +6,8 @@ Vue.use(Router)
 const _8cce3578 = () => import('../pages/index.vue' /* webpackChunkName: "pages/index" */).then(m => m.default || m)
 const _7df3db68 = () => import('../pages/daily/report.vue' /* webpackChunkName: "pages/daily/report" */).then(m => m.default || m)
 const _d75f2c58 = () => import('../pages/admin/validate.vue' /* webpackChunkName: "pages/admin/validate" */).then(m => m.default || m)
+const _1422ae1b = () => import('../pages/admin/login.vue' /* webpackChunkName: "pages/admin/login" */).then(m => m.default || m)
+const _324c409a = () => import('../pages/const/navBar.vue' /* webpackChunkName: "pages/const/navBar" */).then(m => m.default || m)
 const _7124abfc = () => import('../pages/daily/transactionFee.vue' /* webpackChunkName: "pages/daily/transactionFee" */).then(m => m.default || m)
 
 
@@ -56,6 +58,16 @@ export function createRouter () {
 			path: "/admin/validate",
 			component: _d75f2c58,
 			name: "admin-validate"
+		},
+		{
+			path: "/admin/login",
+			component: _1422ae1b,
+			name: "admin-login"
+		},
+		{
+			path: "/const/navBar",
+			component: _324c409a,
+			name: "const-navBar"
 		},
 		{
 			path: "/daily/transactionFee",

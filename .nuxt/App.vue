@@ -9,6 +9,8 @@
 import Vue from 'vue'
 import NuxtLoading from './components/nuxt-loading.vue'
 
+import '../node_modules/bootstrap/dist/css/bootstrap.css'
+
 import '../scss/index.scss'
 
 
@@ -21,7 +23,7 @@ let layouts = {
 let resolvedLayouts = {}
 
 export default {
-  head: {"meta":[],"link":[],"style":[],"script":[]},
+  head: {"title":"CoolBitX Technology","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"Trader Portal"}],"link":[{"rel":"icon","type":"image/x-icon","href":"favicon.png"},{"rel":"stylesheet","href":"css/reset.css","type":"text/css"},{"rel":"stylesheet","href":"css/style_pc.css","type":"text/css","media":"only screen and (min-width:581px)"},{"rel":"stylesheet","href":"css/style_m.css","type":"text/css","media":"only screen and (max-width:581px)"},{"rel":"stylesheet","href":"http://fonts.googleapis.com/css?family=Open+Sans:600,400,300","type":"text/css"}],"style":[],"script":[]},
   data: () => ({
     layout: null,
     layoutName: ''

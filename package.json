@@ -5,14 +5,29 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nuxt"
+    "start": "nuxt",
+    "dev": "nuxt"
+  },
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0",
+      "port": "8000"
+    }
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^3.3.7",
+    "css-loader": "^0.28.7",
+    "jquery": "^3.2.1",
+    "node-loader": "^0.6.0",
     "node-sass": "^4.5.3",
     "nuxt": "^1.0.0-rc11",
-    "sass-loader": "^6.0.6"
+    "sass-loader": "^6.0.6",
+    "vuetify": "^0.16.9"
+  },
+  "devDependencies": {
+    "webpack": "^3.8.1"
   }
 }
