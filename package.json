@@ -22,7 +22,7 @@
     "css-loader": "^6.6.0",
     "jquery": "^3.2.1",
     "node-loader": "^0.6.0",
-    "node-sass": "^7.0.0",
+    "node-sass": "^7.0.3",
     "nuxt": "^3.0.0",
     "sass-loader": "^13.2.0",
     "vuetify": "^0.16.9"
