@@ -23,7 +23,7 @@
     "jquery": "^3.2.1",
     "node-loader": "^0.6.0",
     "node-sass": "^9.0.0",
-    "nuxt": "^3.16.0",
+    "nuxt": "^3.19.0",
     "sass-loader": "^13.2.0",
     "vuetify": "^3.7.3"
   },
