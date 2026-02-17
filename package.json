@@ -28,6 +28,6 @@
     "vuetify": "^3.7.3"
   },
   "devDependencies": {
-    "webpack": "^5.94.0"
+    "webpack": "^5.105.2"
   }
 }
